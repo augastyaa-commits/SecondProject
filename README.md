@@ -1,9 +1,34 @@
-File Handler Module
-This Python module is designed to scan directories and their subdirectories, categorizing files into images, media, and documents. It then uploads images and media to AWS S3 and documents to Google Cloud Storage based on their types and user-defined configurations.
+## File Transfer Module
 
-Key Features
-A. Reads directories and subdirectories to locate files.
-B. Classifies files into categories: images, media, and documents.
-C. Uploads images and media files to AWS S3.
-D. Uploads documents to Google Cloud Storage.
-E. Allows customization of file types and storage destinations.
+Overview
+
+The File Transfer Module is a Python package that scans a specified directory and its subdirectories for files. It classifies files into images, media, and documents, and then uploads them to cloud storage services. Images and media files are uploaded to AWS S3, while documents are uploaded to Google Cloud Storage. The types of files to be uploaded to each service are configurable.
+
+## Features
+
+- Scans a directory and its subdirectories for files.
+- Categorizes files into images, media, and documents.
+- Uploads images and media files to AWS S3.
+- Uploads document files to Google Cloud Storage.
+- Configurable file types for each cloud storage service.
+
+## Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/augastya-commits/file_transfer_module.git
+   
+    ```
+
+2. **Install the package**:
+
+    ```bash
+    pip install .
+    ```
+
+3. **Install required dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+ 
