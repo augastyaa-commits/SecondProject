@@ -17,7 +17,7 @@ The File Transfer Module is a Python package that scans a specified directory an
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/augastya-commits/file_transfer_module.git
+    git clone https://github.com/augastyaa-commits/SecondProject.git
    
     ```
 
